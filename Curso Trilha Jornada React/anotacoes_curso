@@ -1,0 +1,20 @@
+
+
+** para criar o aplicativo react: npx create-react-app organo
+
+*lista tudo que tem dentro da pasta: ls -la
+
+**comando para iniciar o projeto: npm start
+
+
+npm é local npx é remoto
+
+
+**/Comandos explicados **
+npm start : starta o servidor.
+
+npm run build: Agrupa o aplicativo em arquivos estáticos para produções.
+
+npm test: inicia o executor de teste.
+
+npm run eject: Remove esta ferramenta e copia dependências de construção, arquivos de configuração e scripts para o diretório do aplicativo. Se você fizer isso, você não pode voltar atrás!

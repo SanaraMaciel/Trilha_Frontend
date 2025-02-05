@@ -1,0 +1,36 @@
+html: adiciona 1 elemento html apenas um por vez, ou seja sobrescreve.
+
+Append : Anexar outros parágrafos e elementos, sem sobreescrever.
+
+attr: acessar os atributos do parágrafo ou elemento selecionado ex: name etc. pode-se criar uma classe e atribuir css pra essa classe.
+
+math.floor elimina os decimais deixando só a parte inteira.
+
+comando Bind anexar comandos ao elemento.
+
+
+plugin ligthBox pra usar em imagens pra fazer a imagem passar. 
+
+- modernizer faz com q vc melhore a interpretaçao do javascript (Navegadores)
+
+
+plugin tooltip é o balãozinho que aparece qdo vc passa o mouse por ele muito útil em e-commerce ajuda etc
+
+plugin fancyBox - da destaque pra imagem etc da vida aos elementos é tipo um lightbox mas é melhor 
+consegue exibir vídeos, imagens , mapas 
+
+plugin ZOOM - usado para zoom na imagem quando passa o mouse por ele.
+zoom grab : só aparece qdo clica com o mouse e arrasta / dar zoom (como se estivesse segurando e arrastando).
+zoom click: ao clicar na img o zoom é habilitado ñ precisa ficar segurando.
+zoom toogle: elementos de liga/desliga clica habilita o zoom clica desabilita aonde vc clica na img é onde ele dá o zoom.
+
+Plugin Jcarousel : Carrossel de imagens 
+
+Plugin NiveSlider : fazer banner personalizados. funciona qdo carrega a janela e ñ qdo carrega o documento
+ex: window.load
+
+Frameworks Jquery
+
+Framework UI - Interface Usuário pacotes que traz tudo pronto p/ interação com usuário. 
+
+Framework JQuery Mobile é uma UI q é focado em desenvolvimento responsivo 

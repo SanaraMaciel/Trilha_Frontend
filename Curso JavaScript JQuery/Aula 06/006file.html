@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<style type="text/css">
+p{
+	background-color:#CCC;
+	padding:1em;
+	cursor:pointer;
+	}
+	
+p.over{
+	background-color:#FF0;
+	}
+
+span{
+	color:#F00;
+	font-weight:bold;
+	}
+	
+</style>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+</script>
+
+</head>
+
+<body>
+
+<p>Passe o mouse</p>
+<span></span>
+
+</body>
+
+<script type="text/javascript">
+
+$('p').bind('click',function(e){
+	var str = "x="+e.pageX+" e y="+e.pageY;
+	$('span').text("Posição do Clique é "+str);
+	});//fim do $('p').bind()
+
+$('p').bind('dblclick',function(){
+	$('span').text(this.nodeName)
+	});//fim do $('p').bind()
+
+
+$('p').bind('mouseenter mouseleave',function(){
+	$(this).toggleClass('over');
+	});//fim do $('p').bind()
+
+
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

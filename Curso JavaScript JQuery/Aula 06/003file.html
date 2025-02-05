@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<style type="text/css">
+*{
+border:0;
+margin:0;
+padding:0;
+}
+.quadrado, .original{
+width:120px;
+height:120px;
+border:1px #FF0000 solid;
+background:#C60;
+border-radius:12px;
+float:left;
+margin-left:9px;
+margin-top:9px;
+}
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</script>
+
+
+
+</head>
+
+<body>
+
+<div class="quadrado"></div>
+<div class="quadrado"></div>
+<div class="quadrado"></div>
+<div class="quadrado"></div>
+<div id="cinco" class="quadrado"></div>
+<div class="quadrado"></div>
+<div class="quadrado"></div>
+<div class="quadrado"></div>
+<div class="quadrado"></div>
+<div class="quadrado"></div>
+
+</body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    
+$('div.quadrado').mouseover(function(){
+$(this).css({
+'cursor':'pointer',
+'background':'#CCC',
+'padding':'12px',
+'width':'96px',
+'height':'96px',
+})
+.add('p')
+.html('isto no ecxiste');
+});
+
+$('div.quadrado').mouseout(function(){
+$(this).css({
+'cursor':'pointer',
+'padding':'0',
+'width':'120px',
+'height':'120px',
+'border':'1px #FF0000 solid',
+'background':'#C60',
+'border-radius':'12px',
+'float':'left',
+'margin-left':'9px',
+'margin-top':'9px',
+})
+.add('')
+.html('');
+});
+});
+</script>
+</html>
+
+

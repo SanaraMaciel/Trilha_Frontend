@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+<script type="text/javascript">
+
+function clique(){
+$('#oi').text('Boa Tarde!');
+}
+
+	$(document).ready(function() {
+		$('h1').click(function(){
+			$(this).css({
+			'border':'solid 1px red',
+			'background':'pink',
+			});
+		});//encerra $('h1').click()
+
+		$('ul li').click(function(){
+		$(this).css({
+		'border':'solid 1px red',
+		'background':'blue', 
+		'color':'#fff',
+		});
+	});//$('ul li').click()
+
+});//encerra $(document).ready()
+
+</script>
+</head>
+
+<body>
+
+<article id="oi" onClick="clique()">Teste</article>
+
+<h1 id="borda">Titulo</h1>
+<h1>Titulo</h1>
+<h1>Titulo</h1>
+<h1>Titulo</h1>
+
+
+<ul>
+<li>Bananas</li>
+    <li>Limões</li>
+    <li>Siriguelas</li>
+    <li>Graviolas</li>
+</ul>
+
+
+</body>
+
+</html>

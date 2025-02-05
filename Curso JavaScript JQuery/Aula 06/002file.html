@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="iso-8859-1">
+
+<!-- insercao jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<title>jQuery - Aula 07</title>
+
+<style type="text/css">
+	#clique{
+	border:inset 2px #ccc;
+	background-color:#aaa;
+	width:120px;
+	cursor:pointer;
+	}
+	#clique:hover{
+	border:outset 2px #ccc;
+	}
+	img, #moldura{
+	display:none;
+	}
+</style>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+		$('#clique').click(function(){
+		$('img').fadeToggle('slow');
+		$('#moldura').slideToggle('slow');
+	});//$('#clique').click()
+});//$(document).ready()
+
+</script>
+
+</head>
+
+<body>
+<div id="clique">
+Imagem
+</div>
+
+<figure id="moldura">
+<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc3/p480x480/971177_566980210031866_939973887_n.jpg" alt="Jor-el" />
+</figure>
+</body>
+
+</html>
